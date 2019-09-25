@@ -1,0 +1,11 @@
+#background-img {
+    background-color: blueviolet;
+    background-image: url('../img/truskawka.jpg');
+    background-image: linear-gradient()
+    
+    background-position: top center;
+    background-size: 50%, 30%;
+    background-attachment: fixed;
+
+
+}

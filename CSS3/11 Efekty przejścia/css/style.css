@@ -1,0 +1,41 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.szerokosc {
+    background-color: chartreuse;
+    transition: width 2s ease-in;
+}
+
+.szerokosc:hover {
+     width: 300px;
+
+}
+
+
+.wysokosc {
+    background-color: lime;
+    transition: height 2s linear;    
+}
+
+.wysokosc:hover {
+     height: 300px;
+}
+
+.obie {
+    background-color: green;
+    transition: width 2s ease-out, height 2s ease-out;
+}
+
+.obie:hover {
+    height: 300px;
+    width: 300px;
+}

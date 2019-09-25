@@ -1,0 +1,41 @@
+#static {
+    width: 400px;
+    height: 150px;
+    background-color: greenyellow;
+}
+/* kazdy element html domyslnie jest statyczny */
+#relative {
+    position: relative;
+    background-color: coral;
+    width: 600px;
+    height: 400px;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute {
+    position: absolute;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    top: 25px;
+    left: 25px;
+}
+
+#fixed {
+    position: fixed;
+    background-color: blueviolet;
+    height: 50px;
+    width: 600px;
+    bottom: 25px;
+    left: 25px;
+}
+
+#sticky {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: coral;
+
+}

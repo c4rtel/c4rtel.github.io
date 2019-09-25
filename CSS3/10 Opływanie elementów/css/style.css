@@ -1,0 +1,13 @@
+#strawberry {
+    float: left;
+}
+
+#strawberry2 {
+    float: right;
+    clear: both;
+}
+
+p:last-child{
+    background-color: bisque;
+    clear: both;
+}

@@ -1,0 +1,10 @@
+#pierwszy::before {
+    background: yellowgreen;
+    content: ' to jest tekst przed paragrafem' ;
+    font-family: serif;
+}
+
+#drugi::after {
+    background: navy;
+    content: 'to jest tekst za paragrafem';
+}
