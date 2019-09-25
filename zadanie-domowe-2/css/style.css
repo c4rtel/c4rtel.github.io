@@ -1,0 +1,136 @@
+.outer {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
+  
+  .inner {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+  }
+  
+  #one {
+    background-color: red;
+  }
+  
+  #two {
+    margin-left: 200px;
+    background-color: blue;
+  }
+  
+  #three {
+    margin-left: 400px;
+    background-color: green;
+  }
+  
+  #four {
+    margin-top: 200px;
+    background-color: yellow;
+  }
+  
+  #five {
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: black;
+  }
+  
+  #six {
+    margin-left: 400px;
+    margin-top: 200px;
+    background-color: orange;
+  }
+  
+  #seven {
+    margin-top: 400px;
+    background-color: purple;
+  }
+  
+  #eight {
+    margin-left: 200px;
+    margin-top: 400px;
+    background-color: gray;
+  }
+  
+  #nine {
+    margin-left: 400px;
+    margin-top: 400px;
+    background-color: lightpink;
+  }
+  
+  
+  
+  #dot1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: pink;
+    border: 1px solid black;
+  }
+  
+  #dot2 {
+    margin-top: 50px;
+    margin-left: 250px;
+    background-color: gray;
+    border: 1px solid black;
+  }
+  
+  #dot3 {
+    margin-top: 50px;
+    margin-left: 450px;
+    background-color: purple;
+    border: 1px solid black;
+  }
+  
+  
+  #dot4 {
+    margin-top: 250px;
+    margin-left: 50px;
+    background-color: green;
+    border: 1px solid black;
+  }
+  
+  #dot5 {
+    margin-top: 250px;
+    margin-left: 250px;
+    background-color: red;
+    border: 1px solid black;
+  }
+  
+  #dot6 {
+    margin-top: 250px;
+    margin-left: 450px;
+    background-color: blue;
+    border: 1px solid black;
+  }
+  
+  
+  #dot7 {
+    margin-top: 450px;
+    margin-left: 50px;
+    background-color: orange;
+    border: 1px solid black;
+  }
+  
+  #dot8 {
+    margin-top: 450px;
+    margin-left: 250px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  #dot9 {
+    margin-top: 450px;
+    margin-left: 450px;
+    background-color: black;
+    border: 1px solid black;
+  }
+  
