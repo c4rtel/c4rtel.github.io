@@ -1,6 +1,7 @@
 .container {
     border: 1px dotted olive;
     display: flex;
+    flex-direction: column-reverse;
 }
 .flex-item{
     background-color: orange;
