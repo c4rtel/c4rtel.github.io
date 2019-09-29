@@ -188,7 +188,7 @@ nav .nav-menu {
     margin: 40px auto 30px auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -200,11 +200,11 @@ nav .nav-menu {
 
 .contact form textarea {
     flex-basis: 100%;
-    margin-bottom: 1.50em;
-    padding: 1.2em;
-    height: 10em;
+    margin-bottom: 1.5em;
+    padding: 2.2em;
+ 
 }
 
 .social-media {
-    font-size: 41px;
+    font-size: 30px;
 }
