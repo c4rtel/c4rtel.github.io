@@ -54,7 +54,7 @@ h2 {
     text-transform: uppercase;
     font-size: 2.5em;
     font-weight: 400;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 
 }
 
@@ -127,13 +127,14 @@ nav .nav-menu {
 }
 
 .portfolio{
-    background-color: white;
+    background-color: #dddddd;
 }
 
 .portfolio-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 
 }
 
@@ -202,7 +203,7 @@ nav .nav-menu {
     flex-basis: 100%;
     margin-bottom: 1.5em;
     padding: 2.2em;
- 
+    
 }
 
 .social-media {
