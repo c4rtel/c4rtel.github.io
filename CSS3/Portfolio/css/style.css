@@ -10,11 +10,11 @@ body{
     padding: 0px;
 
 }
-hr{
+hr {
     background-color: blue;
     border: 0;
-    height: 1px;
-    width: 7em;
+    height: 1.5px;
+    width: 9em;
 }
 section{
     padding: 9em 0px;
@@ -45,7 +45,7 @@ section{
 }
 
 .button:hover{
-    background-color: blue;
+    background-color: skyblue;
     color: white;
 }
 
@@ -208,4 +208,12 @@ nav .nav-menu {
 
 .social-media {
     font-size: 30px;
+}
+.footer{
+  position: fixed;
+  color: #333;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  text-align: center;
 }
