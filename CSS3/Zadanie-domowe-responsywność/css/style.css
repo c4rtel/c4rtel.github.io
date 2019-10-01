@@ -1,0 +1,74 @@
+.container {
+  flex-direction: column-reverse;
+}
+#caly_blok {
+  font-size:24px;
+  min-width:480px;
+  max-width:1600px;
+  border: olivedrab 1px solid;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-basis: 25%;
+
+}
+
+#naglowek {
+  background-color:red;
+  text-align:center;
+  font-size:1.6em;
+  line-height:1.5em;
+}
+
+#lewy {
+  text-align: left;
+  float:left;
+  width:30%;
+  font-size:1em;
+  line-height:5.4em;
+  background-color: green;
+}
+
+#lewy p {
+  border:1px ;
+  border-left:none;
+  margin:15px 0;
+  padding:15px;
+}
+
+#srodek {
+  float:left;
+  width:40%;
+  font-size:1.2em;
+  line-height:1.5em;
+  background-color: aqua;
+
+}
+
+#srodek p {
+  margin:15px 0;
+  padding:15px;
+}
+
+#prawy {
+  float:left;
+  width:30%;
+  font-size:1em;
+  line-height:5.4em;
+  background-color: pink;
+}
+
+#prawy p {
+  border:1px ;
+  border-right:none;
+  margin:15px 0;
+  padding:15px;
+}
+
+#stopka {
+  clear:both;
+  background-color:purple;
+  text-align:center;
+  font-size:1.4em;
+  line-height:1.5em;
+}
+
