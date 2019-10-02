@@ -1,5 +1,6 @@
 .container {
-  flex-direction: column-reverse;
+  display: flex;
+  flex-wrap: wrap
 }
 #caly_blok {
   font-size:24px;
@@ -36,11 +37,9 @@
 }
 
 #srodek {
-  float:left;
-  width:40%;
-  font-size:1.2em;
-  line-height:1.5em;
-  background-color: aqua;
+  flex-basis: 50%;
+  height: 250px;
+  background-color: deepskyblue;
 
 }
 
@@ -50,10 +49,7 @@
 }
 
 #prawy {
-  float:left;
-  width:30%;
-  font-size:1em;
-  line-height:5.4em;
+  flex-basis: 25%;
   background-color: pink;
 }
 
