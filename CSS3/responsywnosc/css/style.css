@@ -1,16 +1,18 @@
+
+
 .container {
+  width: 100vw;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 #caly_blok {
-  font-size:24px;
-  min-width:480px;
-  max-width:1600px;
-  border: olivedrab 1px solid;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    flex-basis: 25%;
-
+  display: block;
+  font-family: arial, sans-serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+ 
 }
 
 #naglowek {
@@ -27,6 +29,7 @@
   font-size:1em;
   line-height:5.4em;
   background-color: green;
+  flex-basis: 25%;
 }
 
 #lewy p {
@@ -37,10 +40,12 @@
 }
 
 #srodek {
-  flex-basis: 50%;
-  height: 250px;
-  background-color: deepskyblue;
-
+  float:left;
+  width:40%;
+  font-size:1.2em;
+  line-height:1.5em;
+  background-color: aqua;
+  flex-basis: 25%;
 }
 
 #srodek p {
@@ -50,7 +55,12 @@
 
 #prawy {
   flex-basis: 25%;
+  float:left;
+  width:30%;
+  font-size:1em;
+  line-height:5.4em;
   background-color: pink;
+  flex-basis: 25%;
 }
 
 #prawy p {
@@ -68,3 +78,78 @@
   line-height:1.5em;
 }
 
+
+@media (min-width: 992px) {
+
+  .left {
+    flex-direction: column;
+    flex-basis: 25%;
+  }
+
+  .main {
+    flex-flow: column;
+    flex-basis: 75%;
+  }
+
+  .right {
+    flex-flow: column;
+    flex-basis: 25%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .left {
+    flex-basis: 100%;
+    order: 1;
+    align-self: flex-end;
+    justify-content: flex-start;
+    height: 150px;
+  }
+
+  .right {
+
+    flex-flow: wrap;
+    flex-basis: 30%;
+    flex-direction: column;
+    flex: auto;
+  }
+
+  .main {
+    align-self: flex-start;
+    flex-basis: 70%;
+  }
+
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .caly-blok {
+    order: 0;
+    flex-basis: 100%;
+
+  }
+
+
+  .lewy {
+    order: 1;
+    height: 100px;
+    flex-basis: 100%;
+  }
+
+  .prawy {
+    order: 2;
+    height: 100px;
+    flex-basis: 100%;
+  }
+
+}
